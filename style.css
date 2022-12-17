@@ -1,0 +1,135 @@
+/* body */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.search{
+    margin: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    outline: none;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    border: 0ch;
+    background-color: rgba(249, 249, 249, 0.993);
+    padding-left: 20px;
+    box-shadow: 1px 1px 100px 1px rgba(0, 0, 0, 0.174);
+}
+
+
+/* nav of services */
+.listofservices{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.listofservices li{
+    margin: 10px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.558);
+    margin-top: 2px;
+}
+
+
+/* cursive */
+.cursive{
+    display: flex;
+    justify-content: center;
+}
+.cursive h3{
+    font-family: 'Dancing Script', cursive;
+}
+/* <!-- top services --> */
+.cen{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ourservices{
+    margin: 10px;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(248, 248, 248, 0.89);
+    border-radius: 10px;
+}
+.servicesweoffer{
+    display: flex;
+    justify-content: center;
+
+}
+.ourservices img{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    border-radius: 50px;
+}
+.ourservices .viewmore{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+.viewmore button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    border-radius: 12px;
+    height: 40px;
+    width:150px;
+    margin-bottom: 100px;
+}
+
+/* Shops in locality */
+/* Furniture */
+.furniture{
+    margin: 10px;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(248, 248, 248, 0.89);
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+}
+.furniture img{
+    height: 200px;
+}
+.furniture h1{
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: -60px;
+    color: rgb(60, 60, 60);
+    font-family: cursive;
+}
+.furniture button{
+    margin: 10px;
+    border: none;
+    border-radius: 12px;
+    margin-top: -30px;
+    font-size: 15px;
+}
+
+
+
+/* lables */
+.labels{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: rgb(240, 240, 240);
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    margin-top: 150px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    flex-wrap: wrap; 
+}
+.marquee{
+    color: rgb(39, 240, 170);
+    font-size: 15px;
+}
