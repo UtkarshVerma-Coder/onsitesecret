@@ -1,0 +1,61 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.smallimgs{
+    height: 190px;
+    border-radius: 5px;
+}
+.servicesbox1{
+    padding-top: 10px;
+    height: 200px;
+    width: 150px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+.servicesbox2{
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    margin: 10px;
+    text-align: center;
+}
+.servicesbox2 h1{
+    color: rgb(26, 26, 26);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Satisfy', cursive;
+
+}
+.servicesbox2 img{
+    margin-top: -70px;
+}
+.servicesbox2 button{
+    margin: 10PX;
+    margin-top: -30PX;
+    border: none;
+    height: 40PX;
+    width: 120PX;
+    background-color: black;
+    border-radius: 12PX;
+    color: aliceblue;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    
+
+
+}
+
+
+
+/* Servicesbox2 */
+
