@@ -59,3 +59,8 @@ body{
 
 /* Servicesbox2 */
 
+.butt{
+    border: none;
+    border-radius: 12px;
+    background-color: transparent;
+}
